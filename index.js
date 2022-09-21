@@ -10,7 +10,6 @@ const figureParts = document.querySelectorAll('.figure-part');
 
 const words = ['application', 'programming', 'interface', 'wizard','computer','university','dormitory','software'];
 
-
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 let playable = true;
 
